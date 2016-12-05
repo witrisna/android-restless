@@ -1,4 +1,4 @@
-# Android HTTP ThreadPoolExecutor
+# Android HTTP Restless
 
 High performance Android HTTP Client Library. Create a Request and assign to RequestThreadPool.
 The RequestThreadPool manages worker threads to process the request. The worker thread handles
