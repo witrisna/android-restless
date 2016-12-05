@@ -68,9 +68,9 @@ dependencies {
     androidTestCompile 'com.android.volley:volley:1.0.0'
 }
 
-def siteUrl = 'https://github.com/witrisna/android-http-threadpoolexecutor'
-def gitUrl = 'https://github.com/witrisna/android-http-threadpoolexecutor.git'
-def issueUrl = 'https://github.com/witrisna/android-http-threadpoolexecutor/issues'
+def siteUrl = 'https://github.com/witrisna/android-restless'
+def gitUrl = 'https://github.com/witrisna/android-restless.git'
+def issueUrl = 'https://github.com/witrisna/android-restless/issues'
 
 group 'com.ideal.android'
 
@@ -89,7 +89,7 @@ bintray {
         issueTrackerUrl = issueUrl
         vcsUrl = gitUrl
         licenses = ['MIT']
-        labels = ['aar', 'android', 'http', 'threadpool']
+        labels = ['aar', 'android', 'http', 'rest']
         publicDownloadNumbers = true
 
         version {

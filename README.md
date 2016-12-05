@@ -25,7 +25,7 @@ caching, network request, data parsing, retry, and finally provides callback to 
 Edit your build.gradle file and add below dependency:
 ```gradle
     dependencies {
-        compile 'com.ideal.android:http-threadpoolexecutor:0.5'
+        compile 'com.ideal.android:restless:0.5'
     }
 ```
 
