@@ -369,9 +369,9 @@ A simple performance test
 | Library                                        | Test Case                | Server             | Result      |
 | ---------------------------------------------- | ------------------------ | ------------------ | ------------|
 | Android Volley                                 | 100 Concurrent Requests  | Local Mock Server  | 1017 ms     |
-| Android HTTP ThreadPoolExecutor (5 Threads)    | 100 Concurrent Requests  | Local Mock Server  |  795 ms     |
-| Android HTTP ThreadPoolExecutor (10 Threads)   | 100 Concurrent Requests  | Local Mock Server  |  422 ms     |
-| Android HTTP ThreadPoolExecutor (20 Threads)   | 100 Concurrent Requests  | Local Mock Server  |  295 ms     |
+| Android Restless (5 Threads)                   | 100 Concurrent Requests  | Local Mock Server  |  795 ms     |
+| Android Restless (10 Threads)                  | 100 Concurrent Requests  | Local Mock Server  |  422 ms     |
+| Android Restless (20 Threads)                  | 100 Concurrent Requests  | Local Mock Server  |  295 ms     |
 
 
 ### TODO
